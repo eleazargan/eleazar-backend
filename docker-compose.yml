@@ -1,0 +1,13 @@
+version: '3'
+services:
+  backend-db:
+    image: mysql:5.7.22
+    restart: unless-stopped
+    tty: true
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: 62qt%9g9jy7G_E%t!A2L
+      MYSQL_USER: eleazar
+      MYSQL_PASSWORD: 62qt%9g9jy7G_E%t!A2L
+      MYSQL_DATABASE: eleazar
